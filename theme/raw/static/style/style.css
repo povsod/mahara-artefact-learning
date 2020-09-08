@@ -1,0 +1,73 @@
+/**
+ * CSS rules for the learning artefact
+ *
+ * Copyright (C) 2006-2019 Catalyst IT
+ * This file is distributed under the same terms as Mahara itself
+ */
+#learningform #learningform_submitform,
+#learningform #cancel_learningform_submitform {
+    font-size: 1.167em;
+    padding: 5px 10px;
+}
+input#learningform_submitform,
+input#cancel_learningform_submitform {
+    background: url("../images/btn_bkgd.png") repeat-x scroll 0 50% transparent;
+    border-color: #51732F;
+    color: #FFFFFF;
+}
+.learning-fieldsets fieldset {
+    border: none;
+    padding: 0;
+}
+fieldset.safe-hidden .mceEditor {
+    display: none;
+}
+
+/* Prevent content on consecutive tabs to "slide down" due to 'margin: 5px 0px' setting */
+#learningform fieldset.collapsed {
+    margin: 0px;
+}
+
+/* Edit learning file list */
+#learningform_filebrowser_upload_container {
+    margin-top: 10px;
+}
+#learningform_filebrowser_upload_browse,
+#learningform_filebrowser_open_upload_browse_container {
+    padding: 5px;
+}
+#learningform_filebrowser_agreement {
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+#learningform_filebrowser_agreement label {
+    margin-left: -80px;
+}
+/* Edit learning selected file list */
+#learningform_filebrowser_empty_selectlist {
+    margin: 5px 0;
+}
+#learningform_filebrowser_selectlist {
+    margin: 0 0 10px 0;
+}
+
+input#learningform_filebrowser_close_upload_browse {
+    background: transparent url(../images/btn_close.png) no-repeat 0 0;
+    border: 0 !important;
+    margin-right: 0 !important;
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    text-indent: -9999px;
+    font-size: 1%;
+    vertical-align: top;
+    cursor: pointer !important;
+}
+/* Content > Learning > Edit */
+#learningform_filebrowser_upload_browse,
+#learningform_filebrowser_open_upload_browse_container {
+    background: #EEEEEE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
