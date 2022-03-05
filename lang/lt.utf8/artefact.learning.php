@@ -5,7 +5,7 @@
  * @subpackage artefact-learning
  * @author     Gregor Anzelj
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2013-2020 Gregor Anzelj <gregor.anzelj@gmail.com>
+ * @copyright  (C) 2013-2022 Gregor Anzelj <gregor.anzelj@gmail.com>
  *
  * @translator Virginija Navickene
  *
@@ -49,3 +49,38 @@ $string['stage2title'] = 'Tikslai ir sėkmės kriterijai';
 $string['stage3title'] = 'Strategijos';
 $string['stage4title'] = 'Įrodymai';
 $string['stage5title'] = 'Savirefleksija ir įsivertinimas';
+
+// Sideblock guiding questions
+$string['stage1questions'] = '<b>Ką aš jau žinau?<br>Ką galiu padaryti?</b>
+<ul>
+    <li>Ką aš žinau? - informacija, duomenys, faktai, sąvokos, schemos</li>
+    <li>Kokių įgūdžių jau turiu?</li>
+</ul>';
+$string['stage2questions'] = '<b>Kokie mano tikslai?<br>Ką aš noriu pasiekti?</b>
+<ul>
+    <li>Kokios yra mano tikslų aplinkybės? (pvz., Mokytojo iškelti tikslai)</li>
+    <li>Kokių įgūdžių reikia, kad galėčiau atlikti tam tikras užduotis?</li>
+    <li>Kaip man sužinoti, kad man sekasi?</li>
+</ul>';
+$string['stage3questions'] = '<b>Kaip aš galiu pasiekti savo tikslus?</b>
+<ul>
+    <li>Ką turėčiau daryti, kad pasiekčiau savo tikslus?</li>
+    <li>Ką man reikia padaryti, kad atlikčiau šią užduotį?</li>
+    <li>Kada aš tai atliksiu?</li>
+    <li>Su kuo aš dirbsiu?</li>
+    <li>Ko man reikės?</li>
+</ul>';
+$string['stage4questions'] = '<b>Kaip aš įrodysiu, kad pasiekiau tikslus?</b>
+<ul>
+    <li>Kokie yra mano mokymosi įrodymai?</li>
+    <li>Ką aš tuo įrodysiu?</li>
+    <li>Kaip man tai įrodyti?</li>
+</ul>';
+$string['stage5questions'] = '<b>Kaip man sekėsi?</b>
+<ul>
+    <li>Ar aš jau pasiekiau savo tikslų?</li>
+	<li>Ką aš galėjau padaryti geriau?</li>
+    <li>Ar aš pasiekiau savo tikslų?</li>
+    <li>Kaip aš vertinu savo darbą pagal sėkmės kriterijus?</li>
+    <li>Kaip kiti vertina mano darbą?</li>
+</ul>';

@@ -5,7 +5,7 @@
  * @subpackage artefact-learning
  * @author     Gregor Anzelj
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2013-2020 Gregor Anzelj <gregor.anzelj@gmail.com>
+ * @copyright  (C) 2013-2022 Gregor Anzelj <gregor.anzelj@gmail.com>
  *
  */
 
@@ -73,7 +73,7 @@ class PluginBlocktypeLearning extends PluginBlocktype {
     }
 
     // My Learning blocktype only has 'title' option so next two functions return as normal
-    public static function has_instance_config() {
+    public static function has_instance_config(BlockInstance $instance) {
         return true;
     }
 

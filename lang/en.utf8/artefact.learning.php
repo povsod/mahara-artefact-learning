@@ -5,7 +5,7 @@
  * @subpackage artefact-learning
  * @author     Gregor Anzelj
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2013-2020 Gregor Anzelj <gregor.anzelj@gmail.com>
+ * @copyright  (C) 2013-2022 Gregor Anzelj <gregor.anzelj@gmail.com>
  *
  * @translator Gregor Anzelj
  *
@@ -49,3 +49,38 @@ $string['stage2title'] = 'Goals and criteria of success';
 $string['stage3title'] = 'Strategies';
 $string['stage4title'] = 'Evidence';
 $string['stage5title'] = 'Self-reflection and self-evaluation';
+
+// Sideblock guiding questions
+$string['stage1questions'] = '<b>What do I already know?<br>What can I already do?</b>
+<ul>
+    <li>What do I know? – information, data, facts, concepts, scheme</li>
+    <li>What skills do I already have?</li>
+</ul>';
+$string['stage2questions'] = '<b>What are my goals?<br>What do I want to achieve?</b>
+<ul>
+    <li>What are the circumstances of my goals (e.g. Goals set by the teacher?)</li>
+    <li>What skills do I need to carry out certain tasks?</li>
+    <li>How will I know that I am successful?</li>
+</ul>';
+$string['stage3questions'] = '<b>How can I achieve my goals?</b>
+<ul>
+    <li>What should I do to achieve my goals?</li>
+    <li>What activities do I need to carry out to achieve a certain task?</li>
+    <li>When will I perform these activities?</li>
+    <li>With whom will I work?</li>
+    <li>What will I need?</li>
+</ul>';
+$string['stage4questions'] = '<b>How will I prove that I have achieved the goals?</b>
+<ul>
+    <li>What is the evidence of my learning?</li>
+    <li>What do I prove with this?</li>
+    <li>How do I prove it?</li>
+</ul>';
+$string['stage5questions'] = '<b>How successful have I been?</b>
+<ul>
+    <li>Have I reached my goals?</li>
+	<li>What could I do better?</li>
+    <li>How did I reached my goals?</li>
+    <li>How do I assess my work according to the criteria of success?</li>
+    <li>How do others evaluate my work?</li>
+</ul>';

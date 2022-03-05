@@ -5,7 +5,7 @@
  * @subpackage artefact-learning
  * @author     Gregor Anzelj
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2013-2020 Gregor Anzelj <gregor.anzelj@gmail.com>
+ * @copyright  (C) 2013-2022 Gregor Anzelj <gregor.anzelj@gmail.com>
  *
  */
 
@@ -286,15 +286,12 @@ function delete_attachment($attachmentid) {
 
 /*
  * Learning stage sideblock that displays stage specific guiding questions
- * in a sidebar. Those guding questions are the same ones that are also
+ * in a sidebar. Those guiding questions are the same ones that are also
  * displayed on contextual help.
  */
 function learningstage_sideblock($stage=null) {
-    global $USER;
-
-	$title = substr(get_string('learningstage'.$stage, 'artefact.learning'), 2);
-	$content = get_helpfile('artefact', 'learning', null, null, 'stage'.$stage, null);
-	$content = str_replace('h3>', 'h4>', $content);
+	$title = get_string('stage'.$stage.'title', 'artefact.learning');
+	$content = get_string('stage'.$stage.'questions', 'artefact.learning');
     $sideblock = array(
         'name'   => 'learningstage',
         'id'     => 'sb-learningstage',
